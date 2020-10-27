@@ -887,4 +887,57 @@ textarea.form-control {
    padding: 80px 0;
 }
 
+.finalPrototype{
+  Text-align:center;
+}
+
+.UI{
+  padding: 70px 0;
+}
+
+.StoryBoard{
+  text-align: center;
+}
+
+.personas{
+  text-align: center;
+}
+
+
+.Empathymap{
+  text-align: center;
+}
+
+.transaction{
+  padding: 70px 0;
+}
+
+.resources{
+  padding: 70px 0;
+}
+
+.storyboard{
+  padding: 70px 0;
+}
+
+.map{
+  padding: 100px 0;
+}
+
+.LF{
+  padding: 70px 0;
+}
+
+.MF{
+  padding: 40px 0;
+}
+
+.HF{
+  padding: 40px 0;
+}
+
+.BankA{
+  padding: 70px 0;
+}
+
 /*# sourceMappingURL=maps/style.css.map */

@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <title>JessicaChangUX</title>
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- ** Plugins Needed for the Project ** -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/themify/css/themify-icons.css">
+    <link rel="stylesheet" href="plugins/counto/animate.css">
+    <link rel="stylesheet" href="plugins/aos/aos.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="plugins/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="plugins/animated-text/animated-text.css">
+
+    <!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Header Start -->
+
+    <nav class="navbar navbar-expand-lg  main-nav " id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <p>UX DESIGNER</p>
+            </a>
+
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="ti-align-justify"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample09">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item  active"><a class="nav-link" href="index.html">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Close -->
+    <br>
+    <div class="container">
+        <div class="row col-12">
+            <div id='titleSection' class="col-lg-6">
+                <h1>EveryDollar: Redesign</h1>
+
+
+
+
+
+                <ul>
+                  <li>Background: EveryDollar is a financial budgeting app based on Bestselling author and money expert Dave Ramsey. It has the ability to customize your budget every month, track spending with the objective of saving money.</li>
+                  <br>
+                    <li>Objective: How can I design a native mobile budgeting tool to help customer understand and easily track their spending on a month-to-month basis?</li>
+                    <br>
+                    <li>End User: For this project, I used myself; A person who wants to track spending to see where my money is going, so that I can save more.</li>
+                    <br>
+                    <li>My Role: Solo project, so I owned the whole lifecycle from research to final prototyping
+                    </li>
+                </ul>
+
+
+            </div>
+            <img class="col-lg-6 img-fluid" id=" PortfolioPage" src="images/EveryDollar/Portfolio Page.png" alt="">
+
+        </div>
+
+        <hr>
+
+
+
+        <div class="problemStatement">
+
+            <h2>Current EveryDollar App & Pain-Points</h2>
+            <p>
+              <img class="col-lg-8 img-fluid" id=" coffeeSS" src="images/EveryDollar/current.png" alt="Current IA">
+<h4>PainPoints:</h4>
+<h6>Myself:</h6>
+<ui>
+  <li>Shows amount left to budget - but doesn’t show how much you are saving in the month.</li>
+  <li>Shows a color tracker but doesn’t know which color is which</li>
+  <li>Multiple clicks to see what you’ve spent for the month/what you have remaining</li>
+  <li>Hard to figure out exactly where you placed your budget because of the options it gives</li>
+  <li>It’s a learning tool - but education information is clicks away</li>
+</ui>
+<br>
+<h6>User PainPoints:</h6>
+<ui>
+  <li>No real tutorial of how to use the tool</li>
+  <li>No reports section - can’t see how well you are doing month to month</li>
+  <li>Would be nice not to tap through spent/remaining pages</li>
+  <li> Takes 3 steps to get to the insight of how much in the budget is remaining </li>
+  <li> Not super clear which budgets went over their allotted amount</li>
+  <li> Second photo, not clear which is the remaining amount for the month; $40 or $297? </li>
+  <li> Takes multiple steps to get to remaining budget for the month </li>
+
+            </p>
+
+            <div class="row col-13 Spent">
+
+            <div class="col-lg-7 UI">
+              <h4>Observations of Current UI</h4>
+              <p>The green circle makes the spent money look positive. If it is a budgeting app to help the user save money, spending that close to their income amount or budget allotted is not a good thing. If tracking spent amount, the color label should indicate a negative sign when it is close to full amount.
+              </p>
+
+          </div>
+            <img class="col-lg-3 img-fluid" src= "images/EveryDollar/Spent.png" alt="Spent">
+        </div>
+
+        <hr>
+
+        <div class="research">
+            <h2>
+                Competitive Research:
+            </h2>
+            <div class="row col-13">
+                <div class="cups col-lg-7">
+                    <br>
+                    <h4>Mint</h4>
+                    <h5>Top Features:</h5>
+
+
+                    <ul>
+                      <li> Free </li>
+  <li>Automatically updates/categorizes transactions</li>
+  <li>Creates a picture of spending in real time</li>
+  <li>Users can add their own categories, track bills, split transactions and set budgets</li>
+  <li>Alerts them when they’re exceeding maximum spending threshold</li>
+                    </ul>
+
+                    <h5>Cons:</h5>
+
+                    <ul>
+                      <li>Would like a check box that says “Always categorize transactions from this vendor under this category” </li>
+<li>Would like the ability to select multiple transactions and categorize whole batch all at once</li>
+<li>Would like the ability to go to past months and show reports</li>
+<li>No ability to post date or backdate of when payments were made</li>
+                    </ul>
+                </div>
+
+                <img class="col-lg-5 img-fluid" id="MintSS" src="images/EveryDollar/Mint.jpg" alt="">
+            </div>
+            <hr>
+
+            <div class="row col-13">
+                <div class="cups col-lg-7">
+
+                <br>
+                <h4>Good budget</h4>
+                <h5>Top Features:</h5>
+
+                <ul>
+                  <li>Based on envelope system - portion out monthly income toward specific spending categories</li>
+    <li>Allows multiple devices to access same account so partners/family members can share budget</li>
+    <li>Manually add account balances</li>
+    <li>Assign money toward spending categories</li>
+  </ul>
+
+  <h5>Cons:</h5>
+    <ul>
+      <li>Would like a search area to look for specific transactions </li>
+      <li>Doesn’t have auto-sync to bank account</li>
+      <li>Set up is confusing and takes time</li>
+      <li>No chat support</li>
+  </ui>
+</div>
+<img class="col-lg-5 img-fluid" id=" coffeeSS" src="images/EveryDollar/GoodBudget.png" alt="">
+</div>
+<hr>
+
+            <div class="row col-13">
+                <div class="cups col-lg-7">
+
+                <br>
+                <h4>Clarity Money</h4>
+                <h5>Top Features</h5>
+
+                <ul>
+              <li>Free</li>
+    <li>Can link financial accounts</li>
+    <li>Track spending and put into separate categories</li>
+    <li>Other features such as subscription canceling and credit score monitoring</li>
+  </ul>
+
+  <h5>Cons</h5>
+  <ul>
+    <li>Can’t set aside dollar amount each week</li>
+    <li>Have to scroll through giant animations and icons before it gets to information wanted</li>
+    <li>Doesn’t have the ability to split transactions</li>
+    <li>Can’t edit category names</li>
+<li>Would like history of spend by category - would like to see which areas user is making progress in</li>
+  </ui>
+</div>
+
+<img class="col-lg-5 img-fluid" id=" coffeeSS" src="images/EveryDollar/ClarityMoney.jpg" alt="">
+</div>
+<hr>
+
+
+
+            <div class="row col-13">
+                <div class="cups col-lg-7">
+                    <br>
+                    <h4> PocketGuard </h4>
+                    <h5>Top Features:</h5>
+
+
+                    <ul>
+                      <li>Free</li>
+<li>Shows how much money is available after accounting for bills, spending and savings goal contributions</li>
+  <li>Can very how much money is left “in my pocket” for the day, week or month</li>
+  <li>Can track categories of spending; groceries, clothing, eating out</li>
+
+                    </ul>
+
+                    <h5>Cons:</h5>
+
+                    <ul>
+                      <li>Needs to be real time updating</li>
+    <li>Would like push notification of close to your budget</li>
+    <li>Would like flexibility on categories</li>
+    <li>When returns/other income come in - would like it to deduct from money spent</li>
+    <li>Customer service takes forever to resolve issues</li>
+
+                    </ul>
+                </div>
+
+                <img class="col-lg-3 img-fluid" id=" coffeeSS" src="images/EveryDollar/PocketGuard.png" alt="">
+            </div>
+
+            <!-- <div class="row col-13">
+                <div class="cups col-lg-4">
+                    <br>
+                    <h4>BeanHunter: Founded 2013: https://apps.apple.com/us/app/beanhunter-find-great-coffee/id349940968
+                    </h4>
+                    <h5>Purpose:</h5>
+                    <ul>
+                        <li> Helps find and share great coffee
+                        </li>
+                        <li> Stay on top of coffee trends in any city
+                        </li>
+                        <li> Share own coffee experiences
+                        </li>
+                        <li> View places to drink coffee based on rankings
+                        </li>
+
+                    </ul>
+
+                    <h5>Reviews:</h5>
+
+                    <ul>
+                        <li> Crashes too much
+                        </li>
+                        <li> Great location services of the iphone
+                        </li>
+                        <li>Forces you to have a profile</li>
+                        <li>Location service doesn’t always work - no coffee shops near by</li>
+                        <li>Would love to be able to save favorites</li>
+                        <li>Would like to be able to zoom in</li>
+                        <li>Too many locations, doesn’t have enough traction to add cafe’s near by</li>
+
+
+
+                    </ul>
+                </div>
+
+                <img class="col-lg-8 img-fluid" id=" coffeeSS" src="images/CoffeeIMGs/BeanHunter.png" alt="">
+            </div> -->
+        </div>
+        <hr>
+
+
+        <div class="compResearch">
+            <h1>
+                Competitor Research Analysis:
+            </h1>
+            <p>
+              From doing the competitor research, I have gathered together the majority of the painpoints and positive aspects of each app so that it can be combined into the Everydollar redesign. Here are the list of aspects the user wants to see in a budgeting app:
+              <ul>
+                <li> Flexibility of categories of spending</li>
+    <li>Ability to see how much money is saved/left in pocket</li>
+    <li>Alerts when exceeding maximum budget</li>
+    <li>Allows joint account</li>
+    <li>Needs auto-sync to bank accounts</li>
+    <li>Search function to look up transactions</li>
+    <li>History of budgets/month to month review</li>
+    <li>Ability to select multiple transactions to input all at once</li>
+  </ul>
+</p>
+</div>
+<hr>
+
+        <div class="row col-13 StoryBoard">
+          <div class="col-lg-7">
+            <h1>StoryBoard:</h1>
+            <img class="img-fluid" id="StoryBoard" src="images/EveryDollar/Storyboard.jpg"
+                alt="">
+              </div>
+              <div class="col-lg-4 storyboard"
+            <p>
+              Storyboard is based on how a user may interact with the app. User looks at credit card bill and thinks to themself "looks like I've been spending too much. I should budget my money this month". The user then opens up the Everydollar app and manually inputs her transactions from her credit card bill. After seeing how much money she has spent and how much she earns a month, she wonders how much more money she saved this month compared to last. She checks the insight page to get an overview of her monthly spending. Using this new found information, the user budgets her next month out so that she is able to save more than this current month.
+            </p>
+          </div>
+        </div>
+        <hr>
+
+
+
+        <div class="personas">
+            <h1>
+                Personas
+            </h1>
+            <img class="col-lg-10 img-fluid" id=" personas" src="images/EveryDollar/Personas.png"
+                alt="">
+        </div>
+        <hr>
+
+        <div class="Empathymap">
+            <h1>
+                Empathy Map
+            </h1>
+            <br>
+        <img class="col-lg-10 img-fluid" id=" empathymap" src="images/EveryDollar/Empathy Map.jpg"
+            alt="">
+          </div>
+          <hr>
+
+        <div class="row col-13 userResearch">
+                    <div class="col-lg-7">
+                      <h1>User Research - Card Sort</h1>
+                      <br>
+                <p>A card-sort was performed to help create better information architecture so that it was based on what the users expect to see in the app. The card-sort had 10 participants all from different locations and with the background knowledge of budgeting. I did a closed card-sort, which meant I already had the categories I wanted to put in the app/ were already in the app and wanted to change the information architecture based on the data collected. Confirming assumption that users would rather see some items under a different tab/category than where EveryDollar already has it.
+                </p>
+              </div>
+              <img class="col-lg-5 img-fluid" id="cardsort" src="images/EveryDollar/Card-Sort Analysis.PNG" alt="Cardsort">
+                </div>
+              <hr>
+
+              <div class="row col-13 Sitemap:">
+                  <div class="col-lg-7">
+                    <h1>Site Map</h1>
+                <img class="img-fluid" id=" Sitemap" src="images/EveryDollar/SiteMap.png" alt="">
+                  </div>
+
+                  <div class="col-lg-4 map">
+                <p>
+                  Based on the card sort, I have put the items underneath the categoies based on the majority percentage where the participants would like to see them. Categories are color-coded for easier legibility.
+                </p>
+              </div>
+
+            </div>
+            <hr>
+
+
+              <div class="row col-13">
+                  <div class="col-7 Userflow">
+                    <h1> User-flow:</h1>
+                    <p>
+                      Created a user flow for four tasks that a user would commonly use the app for:
+                      <ul>
+                        <li> Task 1: Check to see how much money was spent this month compared to last.</li>
+                        <li> Task 2: Input transactions manually. </li>
+                        <li> Task 3: Check to see where more money can be saved based on exceeded budget.</li>
+                        <li> Task 4: Learn more about budgeting. </li>
+                      </ul>
+                          Going back to the user painpoints, I have cut down the amount of steps it takes to complete some of these tasks, making for easier and more efficient use.
+                    </p>
+                  </div>
+                  <img class="col-lg-5 img-fluid" id=" userflow" src="images/EveryDollar/Userflow.png"
+                      alt="">
+                </div>
+        <hr>
+
+        <div class="row col-13 Brainstorm">
+          <h1>Brainstorm/Ideation</h1>
+          <div class="col-lg-8">
+            <h3> Lowfidelity Wireframes: </h3>
+            <img class="col-lg-5 img-fluid" id=" LFWireframe" src="images/EveryDollar/Lowfidelity WF 1.jpg" alt="">
+            <img class="col-lg-5 img-fluid" id=" LFWireframe2" src="images/EveryDollar/Lowfidelity WF 2.jpg" alt="">
+          </div>
+          <div class="col-lg-3 LF">
+            <p>
+              For each part of the app - I tried to create 5-7 wireframes that could work. After completing each wireframe, I went back and reviewed each one to see which would be easiest to use. There are a couple frames in which I could see the final design being, so I either put a check mark next to both or a question mark so that I can mock up both during the mid-fidelity wireframe stage to make a decision.
+            </p>
+        </div>
+      </div>
+        <hr>
+
+        <div class="row col-13 wireFrames">
+          <div class="col-lg-13">
+            <h3>Mid-fidelity Wireframe:</h3>
+            <img class="img-fluid" id="MFWireframe" src="images/EveryDollar/MF Wireframe.png" alt="">
+            <br>
+          </div>
+          <div class="col-lg-13 MF">
+            <p>
+              The landing page was the frame which I was unsure of the direction to take. However, mocking it up in Figma, I decided to use the second design which helped determine the rest of the design for the app. The dark outline shows the decision made and the frames to follow.
+            </p>
+          </div>
+          </div>
+          <hr>
+
+    <h3>High-Fidelity Wireframe:</h3>
+    <br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img class= "img-fluid" id="Landing2" src="images/EveryDollar/HF Landing.png" alt="">
+
+    </div>
+    <div class="col-sm">
+      <img class= "img-fluid" id="Landing2" src="images/EveryDollar/Overview.png" alt="">
+
+    </div>
+    <div class="col-sm">
+      <img class= "img-fluid" id="Landing2" src="images/EveryDollar/Budget.png" alt="">
+
+    </div>
+    <div class="col-sm HF">
+      <p>
+        Landing/Budgeting: Once opening the app, able to clearly see how much money is remaining in their budget for the month and week. You are able to switch to the budget frame with one click to see how budget is distributed. Can also go to a monthly overview that will give up-to-date statistics of the month.
+      </p>
+    </div>
+  </div>
+</div>
+
+            <br>
+            <br>
+
+              <div class="row col-15 Transaction">
+              <div>
+                <img class=" col-10 img-fluid" id=" Transaction" src="images/EveryDollar/Transaction.png" alt="">
+              </div>
+                <div class="col-5 transaction">
+              <p>
+                Transaction frame - Able to clearly see in red, which budgets have gone over by how much with each manual entry. Users can also see how much of their budget is left in a specific category. There is an add button at the top to manually enter a transaction and then there is one at the bottom once the user is done scrolling so that they don’t have to go back to the top in order to add a transaction.
+              </p>
+            </div>
+            </div>
+            <br>
+            <br>
+
+            <div class="row col-12 Settings">
+              <div>
+              <img class="col-3 img-fluid" id=" settings" src="images/EveryDollar/Profile.png" alt="">
+              <img class="col-3 img-fluid" id=" settings" src="images/EveryDollar/Settings.png" alt="">
+              <img class="col-3 img-fluid" id=" settings" src="images/EveryDollar/Notifications.png" alt="">
+            </div>
+          </div>
+
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+              <img class="img-fluid" id=" settings" src="images/EveryDollar/Add Bank Account.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid" id=" settings" src="images/EveryDollar/Add Bank Account Cont..png" alt="">
+            </div>
+              <div class="col-sm">
+              <p class="BankA">
+                Under profile, the users are able to change their settings, turn on or customize notifications and add a bank account so that transactions are automatically pushed into the app, creating easier use and automatic budgeting.
+              </p>
+            </div>
+            <div class="col-sm">
+
+          </div>
+            </div>
+          </div>
+
+          <br>
+          <br>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+              <img class="img-fluid" id="AboutTheApp" src="images/EveryDollar/About the App.png" alt="">
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid" id="LearnToBudget" src="images/EveryDollar/Learn to budget.png" alt="">
+            </div>
+              <div class="col-sm">
+              <p class="BankA">
+              From the landing page, the user has two separate resources; learning how to budget and about the app frame. This is also where the user would go to contact the creators if there are any issues with the app.
+              </p>
+            </div>
+            <div class="col-sm">
+            </div>
+          </div>
+        <hr>
+
+
+        <div class="userTesting">
+            <h1>User Testing:</h1>
+            <h3> Three Scenarios were created for the user to perform their task:</h3>
+            <p>
+              5 people performed this user testing.
+            </p>
+            <ul>
+              <li> Scenario 1: User has just purchased an item and wants to make sure they track it in their EveryDollar app - please open the app and try to add a transaction (no actual item will be added).</li>
+              <li> Scenario 2: User doesn’t want to have to manually add transactions every time they buy something so they want to connect their bank account. Please open the app and try to link a bank account. </li>
+              <li> Scenario 3: Users download a budgeting app to help keep them accountable and to learn to manage their money better. Find where you can learn more about budgeting. </li>
+            </ul>
+            <h5> Common Findings and Soltuions:</h5>
+            <ul>
+              <li> Issue 1: Icons on bottom are confusing - Solution: Labeled each icon</li>
+              <li> Issue 2: The "Learn to Budget" icon was not clear - Soltuion: Made larger for easier visibility</li>
+              <li> Issue 3: Thought the "Learn to Budget" page would be under the "?" icon - Solution: Changed the about page icon to an "i" to signify information</li>
+
+
+        </div>
+        <hr>
+
+        <div class="finalPrototype">
+            <h3> <a
+                    href="https://www.figma.com/proto/8NQWjXB7J3Ue9Y8Cx69pKf/High-Fidelity-redesign-of-EveryDollar?node-id=1%3A684&scaling=scale-down"> Click
+                    here to see the final Prototype</a>
+            </h3>
+            <hr>
+
+            <h3>Reflection:</h3>
+
+            <p>I came into doing this app re-design with a more solid understanding of the design process as a whole. I really took the time to do my research, what was working for others, what wasn’t and what would make this app the best choice out of all of them for the user. I came to realize how important the first steps of the process are to build the foundation for your end product.
+            </p>
+          </p>
+
+Doing user research and usability testing, I quickly figured out  that narrowing down your participants to the specific target audience is extremely important. I noticed I asked someone who normally budgets, but uses an excel sheet as opposed to an app, was not able to pick up on certain nuances and terminology of the app that are generic to all budgeting apps; i.e. transactions and budget. I switched my recruitment to those who have used budgeting apps in the past and when doing a usability test with these participants, they were able to navigate my redesign fairly quick and was able to give feedback from an actual users point of view. The difference in having someone familiar with budgeting apps and someone who just budgets are vast and determines the outcome of my design.
+</p>
+<p>
+
+It’s also easy to assume icons are commonly used and even those who use budgeting apps may take a bit to figure out which each of the buttons signify - it’s really important to listen to them and hear their frustrations or even see in person, their hesitation to click on a button and the reason behind it. The UI of this product is important so the users can clearly understand how to use the app, which in turn, will help the continuation of use.
+</p>
+
+
+
+        </div>
+
+
+
+    </div>
+    <br>
+
+
+    <!-- free block -->
+
+
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6">
+                    <!-- <p class="mb-0">Copyrights © 2019. Designed & Developed by <a href="themefisher.com"
+                            class="text-white">Themefisher</a></p> -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="widget footer-widget text-lg-right mt-5 mt-lg-0">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/jessica-chang-71a87b116/"
+                                    target="_blank"><i class="ti-linkedin mr-3"></i></a>
+                            </li>
+                            <li class="list-inline-item"><a href="mailto:JessicaChang01760@gmail.com" target="_blank"><i
+                                        class="ti-email mr-3"></i></a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery -->
+    <script src="plugins/jQuery/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="plugins/aos/aos.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="plugins/animated-text/animated-text.js"></script>
+    <script src="plugins/counto/apear.js"></script>
+    <script src="plugins/counto/counTo.js"></script>
+
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap">
+    </script>
+    <!-- Main Script -->
+    <script src="js/script.js"></script>
+
+</html>
